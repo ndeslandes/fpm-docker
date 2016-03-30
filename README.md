@@ -5,8 +5,8 @@ https://github.com/jordansissel/fpm
 
 ## Installation
 
-`docker build --tag=fpm:latest .`
+`docker build -t fpm-docker .`
 
 ## Usage
 
-`docker run -it -v $(pwd):$(pwd) -w $(pwd) fpm:latest fpm ...`
+`docker run -it -v $(pwd):$(pwd) -w $(pwd) fpm-docker fpm ...`
